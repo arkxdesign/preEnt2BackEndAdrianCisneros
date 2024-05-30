@@ -41,8 +41,8 @@ socket.on('products', (products) =>{
     products.forEach((prod)=>{
         infoProducts += `
         <div class="card">      
-              <div class="card-image">
-              <button class="delete-button" onclick="deleteProduct(${prod.id})">X</button>
+              <div class="card-image">              
+              <button class="delete-button" onclick="deleteProduct('${prod.id}')">Eliminar</button>
               </div>  
               <div class="card-body">
                 <h1> ${prod.title}</h1>

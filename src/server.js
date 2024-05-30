@@ -44,7 +44,7 @@ const httpServer = app.listen(PORT, () => {
     socket.on('newProduct', async (product)=> {
             const productVerify = await productsManager.getProductByName(product.title);            
             if(productVerify.title === product.title){
-                return socket.emit('error', 'El producto ya existe');
+                socket.emit('error', 'El producto ya existe')
             }else{
                 await products.push(product);        
                 await productsManager.createProduct(product);
