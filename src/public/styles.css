@@ -49,7 +49,7 @@ li{
 .card {
     background-color: #fff;
     display: flex;
-    width: 90%;
+    width: 33%;
     height: auto;
     margin: 20px;
     overflow: hidden;
@@ -57,7 +57,7 @@ li{
 }
 
 .card:hover {
-    width: 91%;
+    width: 34%;
     height: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
     transform: translateY(-1%);
@@ -209,12 +209,12 @@ button{
 }
 
 .flex-container {
+
     display: flex;
     
     justify-content: center;  
-    /* flex-flow: row-reverse;  */
-    flex-direction: row-reverse;  
-
+    flex-direction: row-reverse; 
+    flex-wrap: wrap-reverse; 
     height: 100%;
     padding: 15px;
     gap: 5px;
