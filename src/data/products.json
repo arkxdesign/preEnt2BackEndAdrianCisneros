@@ -1,0 +1,154 @@
+[
+	{
+		"id": "2e392244-d35c-4f23-9d61-81c835e018a9",
+		"title": "SRV",
+		"code": "13x2024SRV",
+		"description": "    Update Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3500",
+		"thumbnails": "/uploads/guitarra_02.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "1458083a-029d-4e2a-9b5d-439220d1070a",
+		"title": "Lukather",
+		"code": "13x2024Lukather",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3600",
+		"thumbnails": "/uploads/guitarra_01.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "549fa915-0709-4bc3-80c6-8347200b1f20",
+		"title": "Borland",
+		"code": "13x2024Borland",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3299",
+		"thumbnails": "/uploads/guitarra_03.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "ecdac88b-e2de-4195-9566-12ed578af3a2",
+		"title": "VAI",
+		"code": "13x2024VAI",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3050",
+		"thumbnails": "/uploads/guitarra_04.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "3f62fde4-c30a-46fd-b8c9-c246da62dddc",
+		"title": "Thompson",
+		"code": "13x2024Thompson",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3600",
+		"thumbnails": "/uploads/guitarra_05.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "13179a8d-dec0-4ef3-8625-610fa5059a02",
+		"title": "White",
+		"code": "13x2024White",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "2950",
+		"thumbnails": "/uploads/guitarra_06.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "a930e1f3-fb02-48f1-8420-8ac810e10852",
+		"title": "Cobain",
+		"code": "13x2024Cobain",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3900",
+		"thumbnails": "/uploads/guitarra_12.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "31699893-ed9a-4ccc-9da7-2f3df28d1e1d",
+		"title": "Dale",
+		"code": "13x2024Dale",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3799",
+		"thumbnails": "/uploads/guitarra_07.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "ac2817f8-6276-48cb-a183-f517e7c6e611",
+		"title": "Krieger",
+		"code": "13x2024Krieger",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "2899",
+		"thumbnails": "/uploads/guitarra_08.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "96bd9482-66dd-4ee2-b9da-f142db095936",
+		"title": "Campbell",
+		"code": "13x2024Campbell",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3499",
+		"thumbnails": "/uploads/guitarra_09.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "35201fc5-7bb0-4c18-bc6f-aacbeae8c195",
+		"title": "Reed",
+		"code": "13x2024Reed",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3599",
+		"thumbnails": "/uploads/guitarra_10.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "ad55a5aa-3115-431d-b34f-1a95852f67b5",
+		"title": "Hazel",
+		"code": "13x2024Hazel",
+		"description": "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "3799",
+		"thumbnails": "/uploads/guitarra_11.jpg",
+		"status": true,
+		"stock": 10,
+		"category": "guitars"
+	},
+	{
+		"id": "68ecaab6-15b2-49e9-964d-c49b4c0ed512",
+		"status": true,
+		"title": "Black Fire 8",
+		"code": "2121XCBNCX",
+		"description": "CJKJNDCKNDCNK   CDS C DSCSDCSD",
+		"price": "1500",
+		"stock": "2",
+		"category": "GUITARRAS"
+	},
+	{
+		"id": "d9d73bd1-0ce6-406e-adb1-535dd7d54f59",
+		"status": true,
+		"title": "Black Fire 9",
+		"code": "2121XCBNCX",
+		"description": "CJKJNDCKNDCNK   CDS C DSCSDCSD",
+		"price": "1500",
+		"stock": "2",
+		"category": "GUITARRAS"
+	}
+]

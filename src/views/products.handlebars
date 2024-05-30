@@ -1,0 +1,29 @@
+{{#if products.length}}
+  {{#each products}}
+    <div class="contenedor">
+      <div class="productos">
+        <div class="contenido">
+          <div class="card">
+              <div class="card-image">
+                <img
+                  src={{thumbnails}}
+                  width="100px"
+                  height="auto"
+                  alt=""
+                />
+              </div>  
+              <div class="card-body">
+                <h1> {{title}}</h1>
+                <p>CODE: {{code}}</p>
+                <p>PRICE: ${{price}} MXN</p>
+                <p>STOCK: {{stock}}</p>
+                <p class="description">**{{description}}</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+{{else}}
+  <p>No hay productos</p>
+{{/if}}
