@@ -46,6 +46,7 @@ const httpServer = app.listen(PORT, () => {
             if(productVerify.title === product.title){
                 socket.emit('error', 'El producto ya existe')
             }else{
+                console.log(product);
                 await products.push(product);        
                 await productsManager.createProduct(product);
                 socketServer.emit('products', products);
@@ -57,6 +58,6 @@ const httpServer = app.listen(PORT, () => {
         await productsManager.deleteProduct(id);
         socketServer.emit('products', await productsManager.getProducts());
     });
-
+    
  })
 

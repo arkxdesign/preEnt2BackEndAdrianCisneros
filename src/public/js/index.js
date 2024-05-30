@@ -1,14 +1,11 @@
 const socket = io();
 
-console.log("Hola desde el index.js");
-
-
 const form = document.getElementById('form')
 const inputTitle = document.getElementById('title')
 const inputCode = document.getElementById('code')
 const inputDescription = document.getElementById('description')
 const inputPrice = document.getElementById('price')
-const inputThumbnails = document.getElementById('thumbnails')	
+// const inputThumbnails = document.getElementById('thumbnails')	
 const inputStock = document.getElementById('stock')
 const inputCategory = document.getElementById('category')
 const productsList = document.getElementById('products')
@@ -19,16 +16,22 @@ form.onsubmit = (e) => {
     const code = inputCode.value;
     const description = inputDescription.value;
     const price = inputPrice.value;
-    const thumbnails = inputThumbnails.value;
+    // const thumbnails = $(inputThumbnails).val();
     const stock = inputStock.value;
     const category = inputCategory.value;
+
+
+    if (!title || !code || !description || !price || !stock || !category) {
+        alert("Todos los campos son obligatorios");
+        return;
+    }
 
     const product = {
         title,
         code,
         description,
         price,
-        thumbnails,
+        // thumbnails,
         stock,
         category
     };
@@ -36,11 +39,15 @@ form.onsubmit = (e) => {
     socket.emit('newProduct', product);
 }
 
+
+
+
+
 socket.on('products', (products) =>{
     let infoProducts = '';
     products.forEach((prod)=>{
         infoProducts += `
-        <div class="card">      
+        <div class="card2">      
               <div class="card-image">              
               <button class="delete-button" onclick="deleteProduct('${prod.id}')">Eliminar</button>
               </div>  
