@@ -132,14 +132,25 @@
 		"category": "guitars"
 	},
 	{
-		"id": "44d25169-3b5e-4658-bc55-200b4fd392d0",
+		"id": "dfc101e5-715f-41c8-8676-fc461b8c6a2f",
 		"status": true,
 		"title": "Black Fire 12",
 		"code": "2121XCBNCX",
-		"description": "CJKJNDCKNDCNK   CDS C DSCSDCSD",
-		"price": "1500",
+		"description": "**Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "1998",
 		"thumbnails": "C:\\fakepath\\2x1-3.jpg",
-		"stock": "2",
-		"category": "GUITARRAS"
+		"stock": "5",
+		"category": "Guitars"
+	},
+	{
+		"id": "fcf35ac0-3721-4a00-921a-4371b5cf8e27",
+		"status": true,
+		"title": "Black Fire 13",
+		"code": "2121XCBNCX",
+		"description": "**Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+		"price": "1998",
+		"thumbnails": "C:\\fakepath\\2x1-3.jpg",
+		"stock": "5",
+		"category": "Guitars"
 	}
 ]

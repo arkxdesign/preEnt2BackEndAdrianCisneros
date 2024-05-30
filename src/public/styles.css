@@ -142,17 +142,17 @@ input{
     width: 100%;
 }
 button{
-    background: #66d857;
+    background: #d30505;
     color: #fff;
     font-size: 19px;
     border: 0;
-    padding: 12px 0;
+    
     width: 100%;
     border-radius: 0 0 2px 2px;
     cursor: pointer;
 }
 button:hover{
-    background: #1ed106;
+    background: #ff0000;
 }
 
 footer{
@@ -210,13 +210,18 @@ button{
 
 .flex-container {
     display: flex;
+    
     justify-content: center;  
-    /* flex-flow: row nowrap; */ 
-    flex-direction: row; 
-    flex-wrap: nowrap; 
-    align-content: center;
+    /* flex-flow: row-reverse;  */
+    flex-direction: row-reverse;  
+
     height: 100%;
     padding: 15px;
     gap: 5px;
 
+  }
+
+  .delete-button{
+    margin-top: auto;
+    height: 100%;
   }
